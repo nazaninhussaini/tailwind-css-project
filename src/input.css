@@ -2,3 +2,37 @@
 @theme {
     --font-playfair:"Playfair Display";
 }
+@layer components{
+    .card-style{
+        @apply bg-green-500 w-40 h-40 rounded-lg 
+    }
+    .display{
+        display: none;
+    }
+
+    .visibity{
+        visibility: hidden;
+    }
+    .flex-style{
+        background-image: url(../images/cp.jpeg);
+        height: 160px;
+        width: 160px;
+        border-radius: 8px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .flex-style1{
+        background-image: linear-gradient(orange , yellow );
+        height: 160px;
+        width: 160px;
+        border-radius: 8px;
+    }
+    .card-fillter{
+        background-color: rgba(102, 101, 101, 0.1);
+          height: 160px;
+        width: 160px;
+        border-radius: 8px;
+    }
+
+}
