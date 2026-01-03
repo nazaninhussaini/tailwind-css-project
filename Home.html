@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/output.css">
+    <script src="app1.js" defer></script>
+</head>
+<body>
+    <div>
+        <nav class="h-6 w-full bg-green-400 flex justify-between 
+        items-center gap-3 py-6 px-3 mx-auto">
+            <h1 class="text-2xl text-white py-2"> کتاب های مورد علاقه من</h1>
+            <a href="#" id="btn" class="text-white bg-gray-400 py-2 px-4 rounded-md">اضافه کردن کتاب</a>
+        </nav>
+          <div 
+          id=" form"
+          class="hidden gap-2.5justify-center flex-col items-center border h-96 w-1/2 mx-auto border-green-400 my-6">
+        <form >
+            <h1 class="text-2xl gap-2 bg-linear-60 from-green-300 to-green-600 text-transparent bg-clip-text p-2 ">اضافه کردن کتاب</h1>
+            <div class="flex flex-col gap-2 my-4 text-gray-400 ">
+                <label for="book">نام کتاب</label>
+                <input type="text" id="book " class="border p-y2 border-green-400 focus:outline-none">
+            </div>
+               <div class="flex flex-col gap-2 my-3 text-gray-400">
+                <label for="photo">عکس کتاب</label>
+                <input type="file" id="photo " accept="image/*" class=" border border-green-400 focus:outline-none">
+            </div>
+            <div class="flex flex-col gap-2 my-3 text-gray-400">
+            <label for="one">توضیحات</label>
+            <textarea name="" id="one" class="border border-green-400 h-20 w-full focus:outline-none text-gray-400 " placeholder="در باره کتاب معلومات  ارایه کنید"></textarea>
+            </div>
+        </form>
+          <button  class="h-8 w-10/12 rounded-md text-gray-200 bg-green-400 mx-2">اضافه کردن </button>
+        </div>
+      
+    </div>
+    </div>
+</body>
+</html>
