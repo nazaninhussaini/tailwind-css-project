@@ -20,21 +20,27 @@
             <h1 class="text-2xl gap-2 bg-linear-60 from-green-300 to-green-600 text-transparent bg-clip-text p-2 ">اضافه کردن کتاب</h1>
             <div class="flex flex-col gap-2 my-4 text-gray-400 ">
                 <label for="book">نام کتاب</label>
-                <input type="text" id="book " class="border p-y2 border-green-400 focus:outline-none">
+                <input type="text" id="name" class="border p-y2 border-green-400 focus:outline-none">
             </div>
                <div class="flex flex-col gap-2 my-3 text-gray-400">
                 <label for="photo">عکس کتاب</label>
-                <input type="file" id="photo " accept="image/*" class=" border border-green-400 focus:outline-none">
+                <input type="file" id="image" accept="image/*" class=" border border-green-400 focus:outline-none">
             </div>
             <div class="flex flex-col gap-2 my-3 text-gray-400">
             <label for="one">توضیحات</label>
-            <textarea name="" id="one" class="border border-green-400 h-20 w-full focus:outline-none text-gray-400 " placeholder="در باره کتاب معلومات  ارایه کنید"></textarea>
+            <textarea id="description" class="border border-green-400 h-20 w-full focus:outline-none text-gray-400 " placeholder="در باره کتاب معلومات  ارایه کنید"></textarea>
             </div>
+            <input type="submit"
+            id="addBtn"
+            value="اضافه کردن"
+            class="bg-green-400 rounded-md py-2 text-gray-200 w-full "
+            >
         </form>
-          <button  class="h-8 w-[300px] rounded-md text-gray-200 bg-green-400 mx-2">اضافه کردن </button>
-        </div>
+          <!-- <button id="addBtn"  class="h-8 w-[300px] rounded-md text-gray-200 bg-green-400 mx-2">اضافه کردن </button> -->
+          </div>
       
-    </div>
+        </div>
+        <div id="bookContainer"></div>
     </div>
     <script src="app1.js" ></script>
 
