@@ -20,7 +20,8 @@ addBtn.addEventListener("click",(event)=>{
 
    bookList.forEach((book,index) =>{
     const div = document.createElement("div");
-    div.classList.add("w-11/12","h-72" ,"mx-auto","my-4","grid","p-4","border","rounded-lg","bg-white","grid-cols-2");
+    div.classList.add("w-11/12","h-72" ,"mx-auto","my-4","grid","p-4",
+    "border","rounded-lg","bg-white","grid-cols-2");
 
      const h1 = document.createElement("h1");
      h1.textContent = book.name;
@@ -48,7 +49,8 @@ addBtn.addEventListener("click",(event)=>{
 
         bookList.forEach((book,index) =>{
     const div = document.createElement("div");
-    div.classList.add("w-11/12","h-72" ,"mx-auto","my-4","grid","p-4","border","rounded-lg","bg-white","grid-cols-2");
+    div.classList.add("w-11/12","h-72" ,"mx-auto","my-4","grid","p-4","border",
+    "rounded-lg","bg-white","grid-cols-2");
 
      const h1 = document.createElement("h1");
      h1.textContent = book.name;
