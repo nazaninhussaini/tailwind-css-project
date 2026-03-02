@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/output.css">
+</head>
+<body>
+    <!-- برای استایل دادن ما از css استفاده میکنیم اما این css فری مرگ های هم دارد 
+     مثل  Boots rapکه شامل componend ها استند 
+     class های که شبیه هم میباشد و در هیچ صورت تغییر پذییر نمی باشد  -->
+     <!-- بعضی فریمورگ های دیکر هم موجود است مثل tailwindcss که عبارت از class های اماده میباشد 
+      در اینجا ما میتوانیم با استفاده از کم ترین وقت بیشترین کد و بهترین کد را بنویسیم. -->
+        <h1 class="w-full p-2 text-4xl text-bold text-center text-amber-500">Computer Model</h1>
+      
+      <div class="w-full max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 p-5">
+        <div class="relative group">
+            <img src="./img/p1.jpeg" alt="" class="md:h-72 lg:h-90 h-52 rounded-xl ">
+            <div class="hidden p-4 bg-gray-700/30 text-stone-200 rounded-xl 
+            group-hover:flex w-full flex-col gap-2  absolute bottom-0 left-0">
+                <h1 class="text-center font-semibold text-2xl backdrop-blur-sm">Computer</h1>
+                <div class="flex justify-between ">
+                    <p>2007/sep/25</p>
+                    <p>18</p>
+                </div>
+            </div>
+        </div>
+        <div class="relative group">
+            <img src="./img/premium_photo-1661877737564-3dfd7282efcb.jpeg" alt="" class="md:h-72 lg:h-90 h-52 rounded-xl ">
+            <div class="hidden p-4 bg-gray-700/30 text-stone-200 rounded-xl group-hover:flex w-full flex-col gap-2  absolute bottom-0 left-0">
+                <h1 class="text-center font-semibold text-2xl backdrop-blur-sm">Computer</h1>
+                <div class="flex justify-between ">
+                    <p>2007/sep/25</p>
+                    <p>18</p>
+                </div>
+            </div>
+        </div>
+        <div class="relative group">
+            <img src="./img/p2.jpeg" alt="" class="md:h-72 lg:h-90 h-52 rounded-xl ">
+            <div class="hidden p-4 bg-gray-700/30 text-stone-200 rounded-xl group-hover:flex w-full flex-col gap-2  absolute bottom-0 left-0">
+                <h1 class="text-center font-semibold text-2xl backdrop-blur-sm">Computer</h1>
+                <div class="flex justify-between ">
+                    <p>2007/sep/25</p>
+                    <p>18</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
